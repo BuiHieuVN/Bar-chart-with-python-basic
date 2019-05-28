@@ -37,6 +37,7 @@ for x in range(len(contents)):
     plt.xlabel('Web browsers')
     plt.ylabel('Percentage of Usage')
     plt.title("RANK OF BROWSERS USED")
+    plt.savefig(str(x)+'.png')
     
     plt.axis()
     plt.show()
